@@ -1,0 +1,42 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:50px;
+    font-weight: bold;
+    box-sizing:border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li{
+    color: white; /* Alapból fehér, de a blend mód miatt invertálódik */
+    mix-blend-mode: difference; /* Inverz színek */
+}
+
+body{
+    background-image: url(kepek/tanarno_kepe.png);
+    background-size:cover;
+}
+
+.grid-tarolo{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.kep-tarolo{
+    text-align:center;
+}
+
+img{
+    width:100%;
+    border:5px solid black;
+    margin: auto;
+}
+
+table {
+    background-color: darkblue;
+    border:5px solid black;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+td{
+    border:5px solid black;
+}
