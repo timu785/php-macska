@@ -46,9 +46,9 @@
             <td><p>oszlop3</p></td>
         </tr>
         <tr>
-            <td><p><?php echo $helyzet[$0] ?></p></td>
-            <td><p><?php echo $helyzet[$1] ?></p></td>
-            <td><p><?php echo $helyzet[$2] ?></p></td>
+            <td><p><?php echo $helyzet[0] ?></p></td>
+            <td><p><?php echo $helyzet[1] ?></p></td>
+            <td><p><?php echo $helyzet[2] ?></p></td>
         </tr>
         <tr>
             <td><p>content</p></td>
